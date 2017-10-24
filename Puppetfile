@@ -24,3 +24,15 @@ mod 'ssh',
 mod 'ntp',
   :git => 'https://github.com/lokingfighter/puppet-ntp.git',
   :ref => 'master'
+
+mod 'role',
+  :git => 'git@github.com:lokingfighter/puppet-role.git',
+  :ref => 'master'
+
+mod 'profile',
+  :git => 'git@github.com:lokingfighter/puppet-profile.git',
+  :ref => 'master'
+
+mod 'nginx',
+  :git => 'git@github.com:lokingfighter/puppet-nginx.git',
+  :ref => 'master'
