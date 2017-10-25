@@ -7,6 +7,9 @@ mod "puppetlabs/stdlib",      '4.11.0'
 mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",        '1.6.0'
 mod "puppet/selinux",         '1.3.0'
+mod "gareth/docker",          '5.3.0'
+mod "puppetlabs/apt",
+mod "stahna/epel",
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
