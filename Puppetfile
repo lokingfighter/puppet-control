@@ -19,20 +19,20 @@ mod "puppetlabs/java",        '1.6.0'
 
 mod 'ssh',
   :git => 'https://github.com/lokingfighter/puppet-ssh.git',
-  :ref => 'production'
+  :ref => 'master'
 
 mod 'ntp',
   :git => 'https://github.com/lokingfighter/puppet-ntp.git',
-  :ref => 'production'
+  :ref => 'master'
 
 mod 'role',
   :git => 'git@github.com:lokingfighter/puppet-role.git',
-  :ref => 'production'
+  :ref => 'master'
 
 mod 'profile',
   :git => 'git@github.com:lokingfighter/puppet-profile.git',
-  :ref => 'production'
+  :ref => 'master'
 
 mod 'nginx',
   :git => 'git@github.com:lokingfighter/puppet-nginx.git',
-  :ref => 'production'
+  :ref => 'master'
