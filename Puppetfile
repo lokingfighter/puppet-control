@@ -8,6 +8,7 @@ mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",        '1.6.0'
 mod "puppet/selinux",         '1.3.0'
 mod "garethr/docker",         '5.3.0'
+mod "puppetlabs/stdlib",      '4.20.0'
 mod "puppetlabs/apt",         '3.0.0'
 mod "stahnma/epel",            '1.3.0'
 
