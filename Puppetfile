@@ -8,8 +8,8 @@ mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",        '1.6.0'
 mod "puppet/selinux",         '1.3.0'
 mod "garethr/docker",          '5.3.0'
-mod "puppetlabs/apt",         '3.0.0'
-mod "stahna/epel",
+#mod "puppetlabs/apt",         '3.0.0'
+#mod "stahna/epel",
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -21,9 +21,9 @@ mod "stahna/epel",
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-#mod 'ssh',
-#  :git => 'https://github.com/lokingfighter/puppet-ssh.git',
-#  :ref => 'master'
+mod 'ssh',
+  :git => 'https://github.com/lokingfighter/puppet-ssh.git',
+  :ref => 'master'
 
 mod 'ntp',
   :git => 'https://github.com/lokingfighter/puppet-ntp.git',
