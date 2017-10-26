@@ -21,9 +21,9 @@ mod "stahna/epel",
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
-mod 'ssh',
-  :git => 'https://github.com/lokingfighter/puppet-ssh.git',
-  :ref => 'master'
+#mod 'ssh',
+#  :git => 'https://github.com/lokingfighter/puppet-ssh.git',
+#  :ref => 'master'
 
 mod 'ntp',
   :git => 'https://github.com/lokingfighter/puppet-ntp.git',
