@@ -4,9 +4,7 @@ node 'maratiusure4.mylabserver.com' {
   }
 }
 node default {
-  notify { "Salam Aleykum!!!":
-    message => "This is a top scope var: ${top_scope_var}"
-  }
+  hiera_include('classes')
 }
 
 node 'maratiusure5.mylabserver.com' {

@@ -6,3 +6,5 @@ profile::nginx::vhosts:
  - 'fqdn': 'maratiusure4b.mylabserver.com'
    'port': 80
    'server_aliases': 'maratiusure4b.mylabserver.com'
+classes:
+ - profile::nginx
