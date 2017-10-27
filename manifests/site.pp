@@ -1,5 +1,4 @@
 node default {
-  hiera_include('classes')
 }
 
 node 'maratiusure5.mylabserver.com' {
